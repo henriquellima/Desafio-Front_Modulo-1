@@ -1,0 +1,31 @@
+
+.portifolio__img{
+    width: 52.64%;
+}
+.portifolio__textBox{
+    padding: 50px 0px;
+    width: auto;
+    margin-left: 110px;
+    justify-content: space-around;
+
+    border-color: rgba(51,50,61, 0.15);
+    border-top-width: 0.1px ;
+    border-bottom-width:0.1px ;
+    border-top-style:  solid;
+    border-bottom-style: solid;
+}
+.textBox-marginL{
+    margin-left: 0;
+    margin-right: 110px;
+}
+.buttonWhite{
+    margin-top: -10px;
+    width: 200px;
+}
+.portfolio{
+margin-bottom: 80px;
+padding: 0 36px;
+}
+.footer__call{
+    padding: 0 36px;
+}

@@ -1,0 +1,42 @@
+
+
+.textBox{
+    width: 60%;
+}
+.textInformation{
+    padding: 48px 0px;
+
+    border-color: rgba(51,50,61, 0.15);
+    border-top-width: 0.1px ;
+    border-top-style:  solid;
+}
+.textInformation__p{
+    padding-bottom: 54px;
+}
+
+.actionBox{
+    padding-top: 48px;
+    margin-bottom: 109px;
+
+    border-color: rgba(51,50,61, 0.15);
+    border-top-width: 0.1px ;
+    border-top-style:  solid;
+}
+.actionBox__inputs{
+    width: 60%;
+}
+label{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+input{
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    height: 48px;
+
+    margin-bottom: 25px;
+}
+.higherInput{
+    height: 96px;
+}

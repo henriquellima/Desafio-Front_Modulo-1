@@ -1,0 +1,177 @@
+* {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  list-style: none;
+  
+}
+* 
+
+body{
+    width: 100vw;
+}
+
+.body {
+  padding: 64px 164px 0 164px;
+  width: 100vw;
+}
+
+/* PreSets Flexbox */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+
+/* Presets borders */
+.noMargin{
+  margin-right: 0;
+}
+
+/*Presets Elements/fonts*/
+p,
+li,
+button{
+  font-family: "Public Sans", sans-serif;
+  color: #33324d;
+  line-height: 30px;
+}
+h1,
+h2,
+h3 {
+  font-family: "Ibarra Real Nova", serif;
+  color: #33324d;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+  font-style: normal;
+  font-weight: bold;
+}
+h2 {
+  font-size: 40px;
+  line-height: 42px;
+  font-style: normal;
+  font-weight: bold;
+}
+h3 {
+  font-size: 32px;
+  line-height: 42px;
+  font-style: normal;
+  font-weight: normal;
+}
+a{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+li,
+button {
+  font-size: 12px;
+  line-height: 14px;
+}
+button{
+  cursor: pointer;
+}
+
+.pMenor {
+  font-size: 15px;
+  font-family: "Public Sans", sans-serif;
+  color: #33324d;
+  line-height: 30px;
+}
+
+.pMaior {
+  font-size: 16px;
+  font-family: "Public Sans", sans-serif;
+  color: #33324d;
+  line-height: 30px;
+}
+
+/* Header global */
+.header {
+  padding-bottom: 65px;
+}
+.header__li__a {
+  margin-right: 40px;
+  color:#33323D;
+}
+
+.atualPage{
+  color:#5FB4A2;
+  margin-right: 40px;
+}
+.a__last{
+  margin-right: 0;
+}
+
+/* Footer global*/
+
+.footer__call {
+    margin: 150px 0px;
+  }
+ 
+  
+.footer {
+  width: 100vw;
+  background-color: #33324d;
+  padding: 30px 164px 30px 164px;
+}
+
+.footer__li-a{
+  color: white;
+  margin-right: 40px;
+}
+
+.footer__logo{
+    margin-right: 40px;
+}
+
+.footer__icon{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+/* button global */
+
+.buttonWhite{
+    background-color: white;
+
+    height: 48px;
+    border: 0.5px solid #79797c;
+}
+.buttonWhite:hover{
+  background-color: #33323D;
+  color: white;
+}
+.buttonBlue{
+    color: white;
+    background-color: #203A4C;
+    height: 48px;
+}
+.buttonBlue:hover{
+  background-color: #5FB4A2;
+}
+.footer__button{
+  padding: 10px 50px;
+}
